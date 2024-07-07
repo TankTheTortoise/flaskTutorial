@@ -1,0 +1,38 @@
+{% extends "public/templates/public_template.html" %} {% block title %} Index {%
+endblock title %} {% block main %}
+
+<div class="flex">
+  <img src="" alt="Image" id="space" />
+
+  <div id="jokes" style="min-width: 30%">
+    
+  </div>
+
+  <div class="grid-container">
+    <div class="grid-item"><button id="any">Any</button></div>
+    <div class="grid-item"><button id="animal">animal</button></div>
+    <div class="grid-item"><button id="celebrity">celebrity</button></div>
+    <div class="grid-item"><button id="dev">dev</button></div>
+    <div class="grid-item"><button id="explicit">explicit</button></div>
+    <div class="grid-item"><button id="fashion">fashion</button></div>
+    <div class="grid-item"><button id="food">food</button></div>
+    <div class="grid-item"><button id="history">history</button></div>
+    <div class="grid-item"><button id="money">money</button></div>
+    <div class="grid-item"><button id="movie">movie</button></div>
+    <div class="grid-item"><button id="music">music</button></div>
+    <div class="grid-item"><button id="political">political</button></div>
+    <div class="grid-item"><button id="religion">religion</button></div>
+    <div class="grid-item"><button id="science">science</button></div>
+    <div class="grid-item"><button id="sport">sport</button></div>
+    <div class="grid-item"><button id="travel">travel</button></div>
+    <div class="flex">
+      <div class="grid-item">
+        <textarea id="search"></textarea>
+        <button style="width:auto; height: auto;" id="searcher">Search</button>
+      </div>
+      
+    </div>
+  </div>
+
+  {% endblock %}
+</div>
